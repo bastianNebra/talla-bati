@@ -49,17 +49,17 @@ const translations = {
       contact: "Contact"
     },
     hero: {
-      title: "Talla Bâti Concept",
+      title: "Talla Bâti Concept SARL",
       subtitle: "L'excellence du BTP au cœur de Yaoundé",
-      description: "Basé au Rond-point Longkak, nous sommes votre partenaire de proximité pour tous vos projets de construction.",
+      description: "Situés à l’arrêt de bus après le carrefour Tsimi Ydé Nkolbisson et en face de la chefferie Ététack, par Oyomaban, nous sommes votre partenaire de proximité pour tous vos projets de construction.",
       cta: "Demander un Devis",
       videoCta: "Appel Vidéo WhatsApp"
     },
     about: {
       badge: "Notre Histoire",
       title: "Votre Partenaire BTP de Confiance",
-      description: "Basé au Rond-point Longkak, nous sommes votre partenaire de proximité. Nous maîtrisons les défis de la construction locale grâce à nos agglos vibrés haute résistance, conçus pour durer.",
-      location: "Rond-point Longkak, Yaoundé",
+      description: "Situés à l’arrêt de bus après le carrefour Tsimi Ydé Nkolbisson et en face de la chefferie Ététack, par Oyomaban, nous sommes votre partenaire de proximité. Nous maîtrisons les défis de la construction locale grâce à nos agglos vibrés haute résistance, conçus pour durer.",
+      location: "Carrefour Tsimi Ydé Nkolbisson, Yaoundé",
       phone: "+237 95513589",
       hours: "Lundi - Dimanche: 9h - 20h"
     },
@@ -127,8 +127,8 @@ const translations = {
       },
       info: {
         title: "Informations de Contact",
-        address: "Rond-point Longkak, Yaoundé, Cameroun",
-        phone: "+237 95513589",
+        address: "Carrefour Tsimi Ydé Nkolbisson, Yaoundé, Cameroun",
+        phone: "+237 95513589 /+237 67 74 02 29 8",
         hours: "Lundi - Dimanche: 9h - 20h"
       },
       success: "Demande envoyée avec succès!",
@@ -226,8 +226,8 @@ const translations = {
       },
       info: {
         title: "Contact Information",
-        address: "Longkak Roundabout, Yaoundé, Cameroon",
-        phone: "+237 95513589",
+        address: "Carrefour Tsimi Ydé Nkolbisson, Yaoundé, Cameroon",
+        phone: "+237 695 51 35 89 /+237 67 74 02 29 8",
         hours: "Monday - Sunday: 9am - 8pm"
       },
       success: "Request sent successfully!",

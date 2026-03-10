@@ -1,0 +1,115 @@
+{
+  "brand_identity": {
+    "name": "Talla Bâti Concept SARL",
+    "industry": "Construction & Civil Engineering (BTP)",
+    "location": "Yaoundé, Cameroon",
+    "vibe": "Solid, Professional, Modern, Minimalist",
+    "target_audience": "Individuals and Professionals in Cameroon"
+  },
+  "theme": {
+    "mode": "light",
+    "strategy": "High contrast, white-dominant with strong dark typography and safety orange accents."
+  },
+  "colors": {
+    "primary": "#FF5722",
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#1A1A1A",
+    "secondary_foreground": "#FFFFFF",
+    "background": "#FFFFFF",
+    "foreground": "#1A1A1A",
+    "muted": "#F4F4F5",
+    "muted_foreground": "#71717A",
+    "accent": "#8D4004",
+    "border": "#E4E4E7",
+    "input": "#E4E4E7",
+    "ring": "#FF5722"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["600", "700", "800"],
+      "style": "Geometric, strong, architectural"
+    },
+    "body": {
+      "font_family": "DM Sans, sans-serif",
+      "weights": ["400", "500"],
+      "style": "Clean, highly readable"
+    },
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Manrope:wght@400;600;700;800&display=swap"
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_padding": "py-20 md:py-32",
+      "element_gap": "gap-8 md:gap-12"
+    },
+    "grid_system": "Bento Grid for services, Asymmetric layouts for features"
+  },
+  "components": {
+    "buttons": {
+      "style": "Sharp edges or minimal radius (rounded-sm)",
+      "hover": "transform -translate-y-1 transition-all duration-300 shadow-lg",
+      "primary_class": "bg-[#FF5722] text-white hover:bg-[#F4511E] rounded-sm px-8 py-4 font-bold tracking-wide uppercase text-sm"
+    },
+    "cards": {
+      "style": "Minimalist, white background, subtle border, no heavy shadows initially",
+      "hover": "border-[#FF5722] shadow-xl transition-all duration-300"
+    },
+    "navbar": {
+      "style": "Sticky, glassmorphism (white/90 backdrop-blur-md), solid bottom border",
+      "height": "h-20"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "scroll_reveal": {
+      "initial": { "opacity": 0, "y": 50 },
+      "whileInView": { "opacity": 1, "y": 0 },
+      "viewport": { "once": true },
+      "transition": { "duration": 0.6, "ease": "easeOut" }
+    },
+    "hover_scale": {
+      "whileHover": { "scale": 1.02 }
+    }
+  },
+  "sections": {
+    "hero": {
+      "type": "Full Screen Parallax",
+      "content": "High-impact construction imagery, bold headline, floating WhatsApp button",
+      "image_url": "https://images.unsplash.com/photo-1765547682681-428452039cd8?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "services": {
+      "type": "Bento Grid (4 items)",
+      "items": ["BTP & Génie Civil", "Production d'Agglos", "Quincaillerie", "Logistique"],
+      "style": "Icon-heavy, clean typography, hover reveal effects"
+    },
+    "gallery": {
+      "type": "Carousel / Slider",
+      "style": "Full width or large container, focus on project details"
+    },
+    "contact": {
+      "type": "Split Layout",
+      "left": "Contact Info & Form",
+      "right": "Interactive Google Map (Yaoundé context)"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1765547682681-428452039cd8?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "service_bg": "https://images.unsplash.com/photo-1759771611523-0cc0366b8333?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "gallery_1": "https://images.unsplash.com/photo-1768269378478-49d80e2320b7?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "gallery_2": "https://images.unsplash.com/photo-1772401750425-c9c416753ad6?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "gallery_3": "https://images.unsplash.com/photo-1712700004723-4adc42a3532f?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "icons": "lucide-react"
+  },
+  "universal_guidelines": [
+    "Do not use generic centered layouts. Use asymmetry to create tension.",
+    "Use 2-3x more spacing than typical designs (p-12, p-24).",
+    "Every interaction needs micro-animations.",
+    "Dark colors look good when used independently without gradients.",
+    "Use glass-morphism effects with backdrop filters.",
+    "All interactive elements MUST include data-testid attribute."
+  ],
+  "instructions_to_main_agent": "Implement the landing page using React and Tailwind CSS. Use Framer Motion for animations. Ensure the design is mobile-first and responsive. Use the provided image URLs. Create a 'design_system' folder if needed for reusable components like Buttons and Cards that follow these guidelines."
+}
